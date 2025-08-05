@@ -8,6 +8,7 @@ Aim Minecraft Dungeon map from [Minecraft](https://www.minecraft.net), ported to
 <br> **Maximum players:** 32 (16 per team)
 
 ## Gallery
+<img width="1920" height="1080" alt="Screenshot 1" src="https://github.com/user-attachments/assets/5d8414de-71f4-4326-86f5-9ac699a2e0c2" />
 
 ## License
 Do whatever you want. I don't care.
