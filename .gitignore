@@ -1,14 +1,15 @@
-# Source Engine
-*.vmx
-*.lin
-*.prt
-*.log
-*.bsp
-*.nav
+# Windows Explorer
+*.lnk
+desktop.ini
+
+# Counter-Strike 2
+*_bakeresourcecache*
+
+# RadGen
+materials/radgen/
+[Rr]ad[Gg]en/
+*.radgen.bak
 
 # User-specific files
 *.blend*
 !*.blend
-
-# Windows Explorer
-desktop.ini

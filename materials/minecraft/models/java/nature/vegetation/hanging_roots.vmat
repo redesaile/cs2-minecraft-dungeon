@@ -1,0 +1,162 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_foliage.vfx"
+
+	//---- Foliage Animation ----
+	F_FOLIAGE_ANIMATION 1
+
+	//---- PBR ----
+	F_TRANSMISSIVE_BACKFACE_NDOTL 1
+
+	//---- Translucent ----
+	F_ALPHA_TEST 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion ""
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_fTextureColorBrightness "1.000"
+	g_fTextureColorContrast "1.000"
+	g_fTextureColorSaturation "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	g_vTextureColorCorrectionTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "ref://materials/minecraft/world/java/nature/vegetation/hanging_roots.vmat"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Foliage Animation ----
+	g_bBranchMotionPerpendicular "1"
+	g_bFrondTipUseEnvWind "0"
+	g_bSmootherNoiseBranchAndTrunk "1"
+	g_flBranchAnimSpeed "1.000"
+	g_flBranchDeflection "0.000"
+	g_flBranchDeflectionEnd "150.000"
+	g_flBranchDeflectionStart "0.000"
+	g_flBranchNoiseLevel "0.500"
+	g_flFrondTipAnimSpeed "1.000"
+	g_flFrondTipMaskFalloff "1.000"
+	g_flFrondTipSpatialIncoherence "1.000"
+	g_flFrondTipStrength "2.000"
+	g_flTrunkAnimSpeed "1.000"
+	g_flTrunkDeflection "0.224"
+	g_flTrunkDeflectionEnd "300.000"
+	g_flTrunkDeflectionStart "0.000"
+	g_flTrunkNoiseLevel "0.500"
+	g_vNoiseUvScale "[1.000 1.000 1.000]"
+	g_vNoiseUvSpeed "[0.250 0.250 0.250]"
+
+	//---- Lighting ----
+	g_fTextureRoughnessBrightness "1.000"
+	g_fTextureRoughnessContrast "1.000"
+	TextureRoughness "ref://materials/minecraft/world/java/nature/vegetation/hanging_roots.vmat"
+
+	//---- Normal Map ----
+	g_fTextureNormalContrast "1.000"
+	TextureNormal ""
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "2" // Clamp
+	g_nTextureAddressModeV "2" // Clamp
+
+	//---- Translucent ----
+	g_flAlphaBoostDistance "20000.000"
+	g_flAlphaBoostStrength "3.000"
+	g_flAlphaTestReference "0.500"
+	g_flGrazingAngleMask "0.000"
+	TextureTranslucency "ref://materials/minecraft/world/java/nature/vegetation/hanging_roots.vmat"
+
+	//---- Transmission ----
+	g_bApplyColorCorrectionToTransmissiveColor "0"
+	TextureTransmissiveColor "ref://materials\minecraft\world\java\nature\vegetation\hanging_roots.vmat"
+
+	//---- Vertex Color ----
+	g_flHeightGradientAmount "0.000"
+	g_flHeightGradientPower "1.000"
+	g_flVertexAmbientOcclusionAmount "0.000"
+	g_flVertexAmbientOcclusionPower "1.000"
+
+	SystemAttributes
+	{
+		WorldMappingWidth "40"
+		WorldMappingHeight "40"
+		PhysicsSurfaceProperties "grass"
+	}
+
+	UnusedVariables
+	{
+		"g_flAnimationFrame" "0"
+		"g_flAnimationTimeOffset" "0"
+		"g_flAnimationTimePerFrame" "0.1"
+		"g_nNumAnimationCells" "1"
+		"g_vAnimationGrid" "[1 1]"
+		"g_bUseSecondaryUvForAmbientOcclusion" "1"
+		"TextureDetail" ""
+		"g_flDetailBlendFactor" "1"
+		"g_flDetailBlendToFull" "0"
+		"g_flDetailNormalStrength" "1"
+		"g_flDetailTexCoordRotation" "0"
+		"g_vDetailTexCoordOffset" "[0.000 0.000]"
+		"g_vDetailTexCoordScale" "[1.000 1.000]"
+		"TextureDetailMask" ""
+		"TextureNormalDetail" ""
+		"g_flOcclusionCullingBoundsScale" "1"
+		"g_flFlutterAmount" "0.25"
+		"g_flFlutterFalloff" "1"
+		"g_flFlutterNoiseScale" "1"
+		"g_flFlutterSpeed" "1"
+		"g_flSwayAmount" "0.065"
+		"g_flSwayFalloff" "1"
+		"g_flSwayNoiseScale" "1"
+		"g_flSwaySpeed" "1"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+			"Color Correction" 0
+		}
+		"Fog"
+		{
+		}
+		"Foliage Animation"
+		{
+			"Branch Animation" 0
+			"Common Noise Parameters" 0
+			"Frond Tip Anim (Red Channel)" 0
+			"Trunk Animation" 0
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+			"Alpha Boost Mask" 0
+			"Grazing Angle Mask" 0
+		}
+		"Transmission"
+		{
+		}
+		"Vertex Color"
+		{
+			"Ambient Occlusion (Alpha Channel)" 0
+			"Height Gradient (Red Channel)" 0
+		}
+	}
+}

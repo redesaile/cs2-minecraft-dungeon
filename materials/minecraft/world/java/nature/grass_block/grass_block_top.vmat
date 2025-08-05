@@ -1,0 +1,97 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_complex.vfx"
+
+	//---- Detail Texture ----
+	F_DETAIL_TEXTURE 2 // Overlay
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/minecraft/world/java/nature/grass_block/grass_block_top_color.png"
+
+	//---- Detail Texture ----
+	g_flDetailBlendFactor "0.070"
+	g_flDetailBlendToFull "0.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[0.010 0.010]"
+	TextureDetail "materials/minecraft/common/grass_clouds_detail.jpg"
+	TextureDetailMask "materials/default/default_detailmask.tga"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	SystemAttributes
+	{
+		WorldMappingWidth "40"
+		WorldMappingHeight "40"
+		PhysicsSurfaceProperties "grass"
+	}
+
+	UnusedVariables
+	{
+		"g_flAnimationFrame" "0"
+		"g_flAnimationTimeOffset" "0"
+		"g_flAnimationTimePerFrame" "0.1"
+		"g_nNumAnimationCells" "1"
+		"g_vAnimationGrid" "[1 1]"
+		"g_bUseSecondaryUvForAmbientOcclusion" "1"
+		"g_flDetailNormalStrength" "1"
+		"TextureNormalDetail" ""
+		"g_flOcclusionCullingBoundsScale" "1"
+		"TextureDecal" "materials/default/default.tga"
+		"TextureDecalTranslucency" "materials/default/default_trans.tga"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+		}
+		"Detail Texture"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

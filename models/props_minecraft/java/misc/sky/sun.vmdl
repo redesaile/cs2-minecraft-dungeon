@@ -1,0 +1,93 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 0.3937
+						mirror_x = false
+						mirror_y = false
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+					{
+						_class = "ModelModifier_Translate"
+						translation = [ -16384.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "sun_glow.vmat"
+								to = "materials/minecraft/models/java/misc/sky/sun_glow.vmat"
+							},
+							{
+								from = "sun_disc.vmat"
+								to = "materials/minecraft/models/java/misc/sky/sun_disc.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "bright"
+						remaps = 
+						[
+							{
+								from = "materials/minecraft/models/java/misc/sky/sun_disc.vmat"
+								to = "materials/minecraft/models/java/misc/sky/sun_disc_bright.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "bright_75pct"
+						remaps = 
+						[
+							{
+								from = "materials/minecraft/models/java/misc/sky/sun_disc.vmat"
+								to = "materials/minecraft/models/java/misc/sky/sun_disc_bright_75pct.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/props_minecraft/java/misc/sky/sun_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

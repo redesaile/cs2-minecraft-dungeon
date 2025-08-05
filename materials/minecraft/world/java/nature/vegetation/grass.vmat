@@ -1,0 +1,123 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_foliage.vfx"
+
+	//---- PBR ----
+	F_TRANSMISSIVE_BACKFACE_NDOTL 1
+
+	//---- Translucent ----
+	F_ALPHA_TEST 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_fTextureColorBrightness "1.000"
+	g_fTextureColorContrast "1.000"
+	g_fTextureColorSaturation "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	g_vTextureColorCorrectionTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/minecraft/world/java/nature/vegetation/grass_color.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_fTextureRoughnessBrightness "1.000"
+	g_fTextureRoughnessContrast "1.000"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Normal Map ----
+	g_fTextureNormalContrast "1.000"
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0"
+	g_nTextureAddressModeV "0"
+
+	//---- Translucent ----
+	g_flAlphaBoostDistance "20000.000"
+	g_flAlphaBoostStrength "3.000"
+	g_flAlphaTestReference "0.500"
+	g_flGrazingAngleMask "0.000"
+	TextureTranslucency "materials/minecraft/world/java/nature/vegetation/grass_trans.png"
+
+	//---- Transmission ----
+	g_bApplyColorCorrectionToTransmissiveColor "0"
+	TextureTransmissiveColor "materials/minecraft/world/java/nature/vegetation/grass_color.png"
+
+	//---- Vertex Color ----
+	g_flHeightGradientAmount "0.000"
+	g_flHeightGradientPower "1.000"
+	g_flVertexAmbientOcclusionAmount "0.000"
+	g_flVertexAmbientOcclusionPower "1.000"
+
+	SystemAttributes
+	{
+		WorldMappingWidth "40"
+		WorldMappingHeight "40"
+		PhysicsSurfaceProperties "grass"
+	}
+
+	UnusedVariables
+	{
+		"g_flAnimationFrame" "0"
+		"g_flAnimationTimeOffset" "0"
+		"g_flAnimationTimePerFrame" "0.1"
+		"g_nNumAnimationCells" "1"
+		"g_vAnimationGrid" "[1 1]"
+		"g_bUseSecondaryUvForAmbientOcclusion" "1"
+		"TextureDetail" ""
+		"g_flDetailBlendFactor" "1"
+		"g_flDetailBlendToFull" "0"
+		"g_flDetailNormalStrength" "1"
+		"g_flDetailTexCoordRotation" "0"
+		"g_vDetailTexCoordOffset" "[0.000 0.000]"
+		"g_vDetailTexCoordScale" "[1.000 1.000]"
+		"TextureDetailMask" ""
+		"TextureNormalDetail" ""
+		"g_flOcclusionCullingBoundsScale" "1"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+			"Color Correction" "0"
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" "0"
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+			"Alpha Boost Mask" "0"
+			"Grazing Angle Mask" "0"
+		}
+		"Transmission"
+		{
+		}
+		"Vertex Color"
+		{
+			"Ambient Occlusion (Alpha Channel)" "0"
+			"Height Gradient (Red Channel)" "0"
+		}
+	}
+}

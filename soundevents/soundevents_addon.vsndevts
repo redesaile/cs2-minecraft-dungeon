@@ -1,0 +1,329 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	minecraft.lava = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Minecraft"
+		vsnd_files_track_01 = "sounds/minecraft/java/liquid/lava.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+
+	minecraft.lavapop = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Minecraft"
+		vsnd_files_track_01 = "sounds/minecraft/java/liquid/lavapop.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+
+	aim_minecraft_dungeon.outdoors = 
+  	{
+   		type = "csgo_mega"
+   		enable_child_events = true
+		override_dsp_preset = false
+		dsp_preset = "reverb_21_outsideStreet"
+		use_time_volume_mapping_curve = true
+		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		fadetime_volume_mapping_curve = 
+		[
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+		[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				6.823822,
+				2.000000,
+				2.000000,
+			],
+			
+			[
+				0.362857,
+				1.000000,
+				0.260146,
+				0.260146,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"aim_minecraft_dungeon.outdoors.wind",
+			"aim_minecraft_dungeon.outdoors.wind_sand",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+
+	aim_minecraft_dungeon.outdoors.wind = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		volume = 0.030000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				6.823822,
+				2.000000,
+				2.000000,
+			],
+			
+			[
+				0.362857,
+				1.000000,
+				0.260146,
+				0.260146,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.148299
+	}
+	
+	aim_minecraft_dungeon.outdoors.wind_sand = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.800000
+		pitch_random_min = -0.060000
+		pitch_random_max = 0.060000
+		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/dust2/wind_sand_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				6.823822,
+				2.000000,
+				2.000000,
+			],
+			
+			[
+				0.362857,
+				1.000000,
+				0.260146,
+				0.260146,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 70.579208
+	}
+}

@@ -1,0 +1,102 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_lightmappedgeneric.vfx"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flVertexColorOpacityScale "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+
+	//---- PBR 1 ----
+	g_vLayer1Tint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureLayer1AmbientOcclusion "materials/default/default_ao.tga"
+	TextureLayer1Color "materials/minecraft/world/java/building/planks/dark_oak_planks_color.png"
+	TextureLayer1Normal "materials/default/default_normal.tga"
+	TextureLayer1Roughness "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	SystemAttributes
+	{
+		WorldMappingWidth "40"
+		WorldMappingHeight "40"
+		PhysicsSurfaceProperties "Wood"
+	}
+
+	UnusedVariables
+	{
+		"g_flAnimationFrame" "0"
+		"g_flAnimationTimeOffset" "0"
+		"g_flAnimationTimePerFrame" "0.1"
+		"g_nNumAnimationCells" "1"
+		"g_vAnimationGrid" "[1 1]"
+		"g_bUseSecondaryUvForAmbientOcclusion" "1"
+		"TextureDetail" ""
+		"g_flDetailBlendFactor" "1"
+		"g_flDetailBlendToFull" "0"
+		"g_flDetailNormalStrength" "1"
+		"g_flDetailTexCoordRotation" "0"
+		"g_vDetailTexCoordOffset" "[0.000 0.000]"
+		"g_vDetailTexCoordScale" "[1.000 1.000]"
+		"TextureDetailMask" ""
+		"TextureNormalDetail" ""
+		"g_flOcclusionCullingBoundsScale" "1"
+		"g_flBevelBlendSharpness" "2"
+		"g_flBevelBlendStrength" "0"
+		"g_flBevelBlendWidth" "4"
+		"g_flBlendSoftness" "0.5"
+		"g_flLayerBorderOffset" "0"
+		"g_flLayerBorderSoftness" "0.5"
+		"g_flLayerBorderStrength" "0.5"
+		"g_vLayerBorderTint" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureBlendModulation" ""
+		"g_vLayer2Tint" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureLayer2AmbientOcclusion" ""
+		"TextureLayer2Color" ""
+		"TextureLayer2Normal" ""
+		"TextureLayer2Roughness" ""
+		"g_flLayer1NormalTexCoordRotation" "0"
+		"g_flLayer1TexCoordRotation" "0"
+		"g_vLayer1NormalTexCoordCenter" "[0.500 0.500]"
+		"g_vLayer1NormalTexCoordOffset" "[0.000 0.000]"
+		"g_vLayer1NormalTexCoordScale" "[1.000 1.000]"
+		"g_vLayer1TexCoordCenter" "[0.500 0.500]"
+		"g_vLayer1TexCoordOffset" "[0.000 0.000]"
+		"g_vLayer1TexCoordScale" "[1.000 1.000]"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Metalness" 0
+		}
+		"PBR 1"
+		{
+			"Albedo" 0
+			"Normal" 0
+			"Roughness" 0
+			"Ambient Occlusion" 0
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

@@ -1,0 +1,103 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_water.vfx"
+
+	//---- Reflection ----
+	F_REFLECTION_TYPE 1 // Environment Cube Map
+
+	//---- Refraction ----
+	F_DISABLE_REFRACTION 1
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Environment Cube Map ----
+	g_flGlossiness "0.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	g_flNormalTexCoordRotation "0.000"
+	g_vExtraTexCoordScroll "[0.000 0.000 0.000 0.000]"
+	g_vNormalTexCoordOffset "[0.000 0.000]"
+	g_vNormalTexCoordScale "[1.000 1.000]"
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Reflections ----
+	g_flReflectance "0.200"
+
+	//---- Refractions ----
+	g_flWaterDepth "35.000"
+	g_flWaterStart "0.000"
+	g_vWaterFogColor "[0.498039 0.611765 0.803922 1.000000]"
+
+	//---- Specular ----
+	g_flReflectionPower "1.000"
+	g_vReflectionColor "[1.000000 1.000000 1.000000 0.000000]"
+	g_vReflectionDir "[0.000 0.000 1.000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	UnusedVariables
+	{
+		"g_flRefractionAmount" "1"
+		"g_vRefractionTint" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_flFlowTimeScale" "1"
+		"g_flNoiseStrength" "1"
+		"g_flNoiseUvScale" "0.5"
+		"TextureNoise" ""
+		"g_flNormalFlowLerpExp" "1"
+		"g_flNormalFlowTimeIntervalInSeconds" "0.4"
+		"g_flNormalFlowUvScrollDistance" "0.25"
+		"g_flNormalUvScale" "1"
+		"g_flWorldPositionScale" "1"
+		"g_flWorldUvScale" "0.1"
+		"TextureFlow" ""
+		"g_flReflectionAmount" "1"
+		"g_vReflectionTint" "[1.000000 1.000000 1.000000 0.000000]"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Environment Cube Map"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Normal Map"
+		{
+		}
+		"Reflections"
+		{
+		}
+		"Refractions"
+		{
+		}
+		"Specular"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

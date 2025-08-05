@@ -1,0 +1,87 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_simple.vfx"
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/minecraft/world/java/nature/log/oak_log_top_color.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	SystemAttributes
+	{
+		WorldMappingWidth "40"
+		WorldMappingHeight "40"
+		PhysicsSurfaceProperties "wood"
+	}
+
+	UnusedVariables
+	{
+		"g_flAnimationFrame" "0"
+		"g_flAnimationTimeOffset" "0"
+		"g_flAnimationTimePerFrame" "0.1"
+		"g_nNumAnimationCells" "1"
+		"g_vAnimationGrid" "[1 1]"
+		"g_bUseSecondaryUvForAmbientOcclusion" "1"
+		"TextureDetail" ""
+		"g_flDetailBlendFactor" "1"
+		"g_flDetailBlendToFull" "0"
+		"g_flDetailNormalStrength" "1"
+		"g_flDetailTexCoordRotation" "0"
+		"g_vDetailTexCoordOffset" "[0.000 0.000]"
+		"g_vDetailTexCoordScale" "[1.000 1.000]"
+		"TextureDetailMask" ""
+		"TextureNormalDetail" ""
+		"g_flOcclusionCullingBoundsScale" "1"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

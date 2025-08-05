@@ -1,0 +1,87 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_complex.vfx"
+
+	//---- Translucent ----
+	F_ALPHA_TEST 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/minecraft/models/java/func/chain_color.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "2" // Clamp
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.500"
+	g_flAntiAliasedEdgeStrength "1.000"
+	TextureTranslucency "materials/minecraft/models/java/func/chain_trans.png"
+
+	UnusedVariables
+	{
+		"g_fDetailTextureNormalContrast1" "1"
+		"g_flDetailTexCoordRotation1" "0"
+		"g_vDetailTexCoordCenter1" "[0.500 0.500]"
+		"g_vDetailTexCoordOffset1" "[0.000 0.000]"
+		"g_vDetailTexCoordScale1" "[1.000 1.000]"
+		"TextureNormalDetail1" ""
+		"g_flSelfIllumAlbedoFactor" "1"
+		"g_flSelfIllumBrightness" "1"
+		"g_flSelfIllumScale" "1"
+		"g_vSelfIllumScrollSpeed" "[0.000 0.000]"
+		"g_vSelfIllumTint" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureSelfIllumMask" "[1.000000 1.000000 1.000000 0.000000]"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}
