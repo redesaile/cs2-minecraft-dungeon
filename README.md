@@ -6,7 +6,7 @@ Aim Minecraft Dungeon map from [Minecraft](https://www.minecraft.net), ported to
 
 ## Details
 **Game scenario:** Aim Training
-<br> **Supported game modes:** Classic, Deathmatch, Arms Race, Custom
+<br> **Supported game modes:** Classic, Deathmatch, Arms Race, Wingman, Custom
 <br> **Weapon limit:** No limit (fully open buy menu)
 <br> **Maximum players:** 32 (16 per team)
 
