@@ -1,5 +1,5 @@
 # Minecraft Dungeon
-Storage room in an ancient dungeon, made in Minecraft style for Counter-Strike: Global Offensive (this version is deprecated, but is available in the [Releases](https://github.com/redesaile/cs2-minecraft-dungeon/releases/tag/csgo) section) and Counter-Strike 2.
+Storage room in an ancient dungeon, made in [Minecraft](https://www.minecraft.net) style for [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (this version is deprecated, but is available in the [Releases](https://github.com/redesaile/cs2-minecraft-dungeon/releases/tag/csgo) section) and [Counter-Strike 2](https://store.steampowered.com/app/730).
 
 > [!IMPORTANT]
 > 1. **There is a third-party software used here.** To have full compatibility, see [RadGen](https://radargenerator.github.io/).
