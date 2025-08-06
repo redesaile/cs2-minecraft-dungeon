@@ -2,7 +2,8 @@
 Aim Minecraft Dungeon map from [Minecraft](https://www.minecraft.net), ported to [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (that version can be found in [Releases](https://github.com/redesaile/cs2-minecraft-dungeon/releases/tag/csgo)) and updated to [Counter-Strike 2](https://store.steampowered.com/app/730) with some changes.
 
 > [!IMPORTANT]
-> **There are custom particles in this project.** By default, custom particles are disabled in [Counter-Strike 2 Workshop Tools](https://developer.valvesoftware.com/wiki/Counter-Strike_2_Workshop_Tools). To return them, [read the guide](Enabling%20Custom%20Particles.md).
+> 1. **The project uses third-party software to generate the radar.** To have full compatibility, see [RadGen](https://radargenerator.github.io/).
+> 2. **There are custom particles in this project.** By default, custom particles are disabled in [Counter-Strike 2 Workshop Tools](https://developer.valvesoftware.com/wiki/Counter-Strike_2_Workshop_Tools). To return them, [read the guide](Enabling%20Custom%20Particles.md).
 
 ## Details
 **Game scenario:** Aim Training
