@@ -1,0 +1,65 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "generic.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/radgen/radgen_remove.tga"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	TextureNormal ""
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "[0.750000 0.750000 0.750000 0.000000]"
+
+	Attributes
+	{
+		tools.toolsmaterial "1"
+		mapbuilder.nodraw "1"
+		mapbuilder.nonsolid "1"
+	}
+
+	UnusedVariables
+	{
+		"g_vGradientColorStop0" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_vGradientColorStop1" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_vGradientColorStop2" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_vGradientModulation_StopPositions" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_flTex2CoordRotation" "0"
+		"g_vTex2CoordCenter" "[0.500 0.500]"
+		"g_vTex2CoordOffset" "[0.000 0.000]"
+		"g_vTex2CoordScale" "[1.000 1.000]"
+		"Texture2Color" ""
+		"g_flAlphaTestReference" "0.5"
+		"g_flAntiAliasedEdgeStrength" "1"
+		"g_nTextureAddressModeU" "0"
+		"g_nTextureAddressModeV" "0"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Normal Map"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}

@@ -10,8 +10,8 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_flTexCoordRotation "0.000"
-	g_nScaleTexCoordUByModelScaleAxis "0" // None
-	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vTexCoordCenter "[0.500 0.500]"
 	g_vTexCoordOffset "[0.000 0.000]"
@@ -30,8 +30,8 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Texture Address Mode ----
-	g_nTextureAddressModeU "2" // Clamp
-	g_nTextureAddressModeV "2" // Clamp
+	g_nTextureAddressModeU "2"
+	g_nTextureAddressModeV "2"
 
 	UnusedVariables
 	{
@@ -57,8 +57,8 @@ Layer0
 		}
 		"Lighting"
 		{
-			"Roughness" 0
-			"Metalness" 0
+			"Roughness" "0"
+			"Metalness" "0"
 		}
 		"Normal Map"
 		{
