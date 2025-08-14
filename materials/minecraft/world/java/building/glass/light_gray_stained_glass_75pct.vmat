@@ -20,7 +20,7 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "[0.603922 0.603922 0.603922 1.000000]"
+	TextureColor "[0.600000 0.600000 0.600000 0.098039]"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -38,7 +38,7 @@ Layer0
 
 	//---- Translucent ----
 	g_flOpacityScale "1.000"
-	TextureTranslucency "materials/minecraft/world/java/building/glass/white_stained_glass_75pct_trans.png"
+	TextureTranslucency "materials/minecraft/world/java/building/glass/light_gray_stained_glass_trans_75pct.png"
 
 	SystemAttributes
 	{

@@ -2,13 +2,10 @@
 
 Layer0
 {
-	shader "csgo_complex.vfx"
-
-	//---- Translucent ----
-	F_TRANSLUCENT 1
+	shader "csgo_simple.vfx"
 
 	//---- Ambient Occlusion ----
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureAmbientOcclusion ""
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
@@ -20,7 +17,7 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "[0.600000 0.600000 0.600000 0.098039]"
+	TextureColor "materials/minecraft/world/java/building/polished_andesite_color.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -30,21 +27,17 @@ Layer0
 	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Normal Map ----
-	TextureNormal "materials/default/default_normal.tga"
+	TextureNormal ""
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
 	g_nTextureAddressModeV "0" // Wrap
 
-	//---- Translucent ----
-	g_flOpacityScale "1.000"
-	TextureTranslucency "materials/minecraft/world/java/building/glass/light_gray_stained_glass_trans.png"
-
 	SystemAttributes
 	{
 		WorldMappingWidth "40"
 		WorldMappingHeight "40"
-		PhysicsSurfaceProperties "glass"
+		PhysicsSurfaceProperties "concrete_polished"
 	}
 
 	UnusedVariables
@@ -88,9 +81,6 @@ Layer0
 		{
 		}
 		"Texture Address Mode"
-		{
-		}
-		"Translucent"
 		{
 		}
 	}

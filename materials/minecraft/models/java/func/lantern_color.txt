@@ -1,0 +1,5 @@
+"settings"
+{
+	"mip_algorithm"		"Nice"
+	"maxres"		"4096"
+}

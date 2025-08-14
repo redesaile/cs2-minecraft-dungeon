@@ -15,26 +15,15 @@
 						[
 							{
 								from = "chain.vmat"
-								to = "materials/minecraft/models/java/func/lantern_skin0.vmat"
+								to = "materials/minecraft/models/java/func/lantern.vmat"
 							},
 							{
 								from = "lantern.vmat"
-								to = "materials/minecraft/models/java/func/lantern_skin0.vmat"
+								to = "materials/minecraft/models/java/func/lantern.vmat"
 							},
 						]
 						use_global_default = false
 						global_default_material = ""
-					},
-					{
-						_class = "MaterialGroup"
-						name = "soul"
-						remaps = 
-						[
-							{
-								from = "materials/minecraft/models/java/func/lantern_skin0.vmat"
-								to = "materials/minecraft/models/java/func/lantern_skin1.vmat"
-							},
-						]
 					},
 				]
 			},

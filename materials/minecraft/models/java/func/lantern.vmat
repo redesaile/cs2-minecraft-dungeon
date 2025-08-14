@@ -4,6 +4,9 @@ Layer0
 {
 	shader "csgo_complex.vfx"
 
+	//---- Animation ----
+	F_TEXTURE_ANIMATION 1
+
 	//---- PBR ----
 	F_SELF_ILLUM 1
 
@@ -23,7 +26,7 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/minecraft/models/java/func/lantern_skin0_color.png"
+	TextureColor "materials/minecraft/models/java/func/lantern_color.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -37,20 +40,27 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "1.000"
-	g_flSelfIllumBrightness "1.285"
+	g_flSelfIllumBrightness "1.000"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureSelfIllumMask "materials/minecraft/models/java/func/lantern_skin0_selfillum.png"
+	TextureSelfIllumMask "materials/minecraft/models/java/func/lantern_selfillum.png"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "2" // Clamp
 	g_nTextureAddressModeV "2" // Clamp
 
+	//---- Texture Animation ----
+	g_flAnimationFrame "0.000"
+	g_flAnimationTimeOffset "0.000"
+	g_flAnimationTimePerFrame "0.406"
+	g_nNumAnimationCells "4"
+	g_vAnimationGrid "[1 4]"
+
 	//---- Translucent ----
 	g_flAlphaTestReference "0.500"
 	g_flAntiAliasedEdgeStrength "1.000"
-	TextureTranslucency "materials/minecraft/models/java/func/lantern_skin0_trans.png"
+	TextureTranslucency "materials/minecraft/models/java/func/lantern_trans.png"
 
 	UnusedVariables
 	{
@@ -86,6 +96,9 @@ Layer0
 		{
 		}
 		"Texture Address Mode"
+		{
+		}
+		"Texture Animation"
 		{
 		}
 		"Translucent"
