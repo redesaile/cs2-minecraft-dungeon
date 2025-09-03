@@ -44,6 +44,10 @@
 								from = "materials/minecraft/world/java/func/trapdoor/oak_trapdoor.vmat"
 								to = "materials/minecraft/models/java/func/trapdoor/oak_trapdoor.vmat"
 							},
+							{
+								from = "materials/minecraft/world/java/func/trapdoor/oak_trapdoor_side.vmat"
+								to = "materials/minecraft/models/java/func/trapdoor/oak_trapdoor_side.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""

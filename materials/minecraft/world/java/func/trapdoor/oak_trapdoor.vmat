@@ -21,6 +21,7 @@ Layer0
 	g_flAlphaTestReference1 "0.500"
 	g_flAntiAliasedEdgeStrength1 "1.000"
 	g_flTexCoordRotation1 "0.000"
+	g_flWetnessDarkeningStrength1 "1.000"
 	g_nUVSet1 "1" // UV1
 	g_vTexCoordCenter1 "[0.500 0.500]"
 	g_vTexCoordOffset1 "[0.000 0.000]"

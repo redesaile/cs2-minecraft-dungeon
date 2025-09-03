@@ -12,8 +12,8 @@ Layer0
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
-	g_nScaleTexCoordUByModelScaleAxis "0"
-	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Fog ----
@@ -40,8 +40,8 @@ Layer0
 	// [inherited from layer] g_vTextureColorTint1 "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Texture Address Mode ----
-	g_nTextureAddressModeU "2"
-	g_nTextureAddressModeV "2"
+	g_nTextureAddressModeU "2" // Clamp
+	g_nTextureAddressModeV "2" // Clamp
 
 	//---- Translucent ----
 	g_flAlphaTestReference "0.500"
@@ -71,5 +71,30 @@ Layer0
 		"TextureDetailMask" ""
 		"TextureNormalDetail" ""
 		"g_flOcclusionCullingBoundsScale" "1"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Layer 1"
+		{
+			"Tint Mask" 0
+			"Color Correction" 0
+			"Lighting" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 1
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
 	}
 }
