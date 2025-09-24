@@ -17,4 +17,5 @@ An Ancient Dungeon storage room designed in [Minecraft](https://www.minecraft.ne
 ## License
 Do whatever you want. I don't care.
 
-[MIT](LICENSE) - Copyright (c) 2025 THE OWL
+[MIT](LICENSE) - Copyright (c) 2025 redesaile
+
